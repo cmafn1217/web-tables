@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tables</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+</head>
+
+<body>
+    <header>
+        <h1>Chris's Weekly Schedule</h1>
+    </header>
+
+    <table>
+        <caption>Average Weekly Schedule</caption>
+        <colgroup>
+            <col id="firstCol" />
+            <col id="daysCols" span="7" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Hours</th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="restHRS">
+                <th>12:00AM</th>
+                <td colspan="7" rowspan="5">Sleepy Times</td>
+            </tr>
+            <tr>
+                <th>1:00AM</th>
+            </tr>
+            <tr>
+                <th>2:00AM</th>
+            </tr>
+            <tr>
+                <th>4:00AM</th>
+            </tr>
+            <tr>
+                <th>5:00AM</th>
+            </tr>
+            <tr>
+                <th>6:00AM</th>
+                <td colspan="1">Wake up and get ready for work</td>
+                <td class="restHRS2" colspan="4" rowspan="4" >Sleepy times</td>
+                <td colspan="1">Wake up and get ready for work</td>
+                <td class="restHRS2" rowspan="4">Sleepy times</td>
+            </tr>
+            <tr>
+                <th>7:00AM</th>
+                <td class="workTimes" rowspan="9">Working Times + 30 minute break inbetween. Get home at 3PM</td>
+                <td class="workTimes" rowspan="9">Working Times + 30 minute break inbetween. Get home at 3PM</td>
+            </tr>
+            <tr>
+                <th>8:00AM</th>
+            </tr>
+            <tr>
+                <th>9:00AM</th>
+            </tr>
+            <tr>
+                <th>10:00AM</th>
+                <td colspan="4" rowspan="2">Wake up and start day (Make Breakfast, feed pets, fix bed, etc.)</td>
+                <td rowspan="2">Wake up and start day</td>
+            </tr>
+            <tr>
+                <th>11:00AM</th>
+            </tr>
+            <tr>
+                <th>12:00PM</th>
+                <td rowspan="2">Make and pack lunch then get ready for work.</td>
+                <td rowspan="3">Make lunch and complete chores around the house. When done get ready for work.</td>
+                <td rowspan="3">Make lunch and complete any homework missed from other days. Get ready for work afterwards.</td>
+                <td rowspan="3">Make lunch and clean my room. Prepare for class at 3:30PM (Day off from work) </td>
+                <td rowspan="2">Help parents with chores and cleaning aroud the house. Get ready for work at 2PM</td>
+            </tr>
+            <tr>
+                <th>1:00PM</th>
+            </tr>
+            <tr>
+                <th>2:00PM</th>
+                <td rowspan="8" class="workTimes">Working Times + 30 minute break inbetween. Leave work at 9, arrive home at 9:30PM</td>
+                <td rowspan="8" class="workTimes">Working Times + 30 minute break inbetween. Leave work at 9, arrive home at 9:30PM</td>
+            </tr>
+            <tr>
+                <th>3:00PM</th>
+                <td class="workTimes" colspan="2" rowspan="8">Working times with 30 minute break. Leave work at 10PM. Arrive home at 10:30PM. <br> Shower and wash face until 11PM</td>
+                <td rowspan="3" class="classTimes">CS222 Class from 3:30-5PM</td>
+            </tr>
+            <tr>
+                <th>4:00PM</th>
+                <td rowspan="5">Homework Times + 1 hour dinner some time inbetween.</td>
+                <td rowspan="5">Homework Times + 1 hour dinner some time inbetween.</td>
+            </tr>
+            <tr>
+                <th>5:00PM</th>
+            </tr>
+            <tr>
+                <th>6:00PM</th>
+                <td rowspan="3">Homework Times + 1 hour dinner inbetween.</td>
+            </tr>
+            <tr>
+                <th>7:00PM</th>
+            </tr>
+            <tr>
+                <th>8:00PM</th>
+            </tr>
+            <tr>
+                <th>9:00PM</th>
+                <td>Shower Times</td>
+                <td>Shower Times</td>
+                <td>Shower Times</td>
+            </tr>
+            <tr>
+                <th>10:00PM</th>
+                <td colspan="2" class="freeTime">Freetimes (Video Games, Laundry, Other Cleaning)</td>
+                <td colspan="2" class="freeTime">Freetimes (Video Games, Laundry, Other Cleaning)</td>
+                <td>Shower Times</td>
+            </tr>
+            <tr>
+                <th>11:00PM</th>
+                <td class="restHRS2" colspan="7">Sleep Times</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

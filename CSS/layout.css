@@ -1,0 +1,54 @@
+table {
+    border-collapse: collapse;
+    border: 20px ridge violet;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+table col#firstCol {
+    background-color: rgba(120, 0, 234, 0.3);
+    width: 140px;
+}
+
+table col#daysCols {
+    width: 80px;
+    
+}
+
+table thead {
+    background-color: cornflowerblue;
+}
+
+.restHRS td{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.restHRS2 {
+    text-align: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.workTimes {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.classTimes {
+    background-color: yellow;
+}
+
+.freeTime {
+    background-color: rgba(153, 50, 204, 0.5);
+}
